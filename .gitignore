@@ -1,5 +1,25 @@
+# Node.js
 node_modules
 Sever/test
 Sever/config
 Sever/.env
 .env
+
+# Android
+*.iml
+.gradle
+App/local.properties
+App/.idea/caches
+App/.idea/libraries
+App/.idea/modules.xml
+App/.idea/workspace.xml
+App/.idea/navEditor.xml
+App/.idea/assetWizardSettings.xml
+App/build
+App/captures
+App/.externalNativeBuild
+App/.cxx
+local.properties
+
+# System Files
+.DS_Store
