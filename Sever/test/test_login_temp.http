@@ -1,0 +1,29 @@
+###로그인 
+post http://13.125.75.159:4000/login
+Content-Type: application/json; charset=UTF-8
+
+{
+	"email" : "12345",
+	"password": "12345"
+}
+###회원가입
+post http:///13.125.75.159:4000/register
+Content-Type: application/json; charset=UTF-8
+
+{
+	"nickname" : "final_test",
+	"email" : "12345",
+	"password": "12345"
+}
+
+
+###차량등록3.39.234.31
+post http://13.125.75.159:4000/cars
+Content-Type: application/json; charset=UTF-8
+
+{	
+	"email":"12345",
+	"device_number": "888777",
+	"car_type": "cona"
+}
+

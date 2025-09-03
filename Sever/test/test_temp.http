@@ -1,0 +1,28 @@
+###batteryTemp toss 
+post http://13.125.75.159:4000/cars/batteryTemp
+Content-Type: application/json; charset=UTF-8
+
+{	
+	"device_number": "888777",
+	"module_number": "1",
+	"module_temp": "40"
+}
+
+###batteryTemp toss
+post http://localhost:4000/cars/batteryTemp/app
+Content-Type: application/json; charset=UTF-8
+
+{	
+	"device_number": "12341234",
+	"module_number": "1"
+}
+
+###batteryTemp list toss
+POST http://localhost:4000/cars/batteryTemp/list/app
+Content-Type: application/json; charset=UTF-8
+
+{
+  "device_number": "12341234",
+  "module_number": "1",
+  "page": 1
+}

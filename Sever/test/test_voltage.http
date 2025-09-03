@@ -1,0 +1,288 @@
+###전압 save - cell_00~09 (ten_num: 0)
+POST http://13.125.75.159:4000/cars/cellVoltage
+Content-Type: application/json; charset=UTF-8
+
+{	
+	"device_number": "888777",
+    "ten_num": "0",
+    "cell_00": "3.1",
+	"cell_01": "3.2",
+	"cell_02": "3.1",
+	"cell_03": "3.3",
+	"cell_04": "3.2",
+	"cell_05": "3.4",
+	"cell_06": "3.3",
+	"cell_07": "3.5",
+	"cell_08": "3.4",
+	"cell_09": "3.6"
+}
+
+###전압 save - cell_10~19 (ten_num: 1)
+POST http://localhost:4000/cars/cellVoltage
+Content-Type: application/json; charset=UTF-8
+
+{	
+	"device_number": "888777",
+    "ten_num": "1",
+    "cell_10": "3.5",
+	"cell_11": "3.7",
+	"cell_12": "3.6",
+	"cell_13": "3.8",
+	"cell_14": "3.7",
+	"cell_15": "3.9",
+	"cell_16": "3.8",
+	"cell_17": "4.0",
+	"cell_18": "3.9",
+	"cell_19": "4.1"
+}
+
+###전압 save - cell_20~29 (ten_num: 2)
+POST http://localhost:4000/cars/cellVoltage
+Content-Type: application/json; charset=UTF-8
+
+{	
+	"device_number": "888777",
+    "ten_num": "2",
+    "cell_20": "3.8",
+	"cell_21": "4.0",
+	"cell_22": "3.9",
+	"cell_23": "4.1",
+	"cell_24": "4.0",
+	"cell_25": "4.2",
+	"cell_26": "4.1",
+	"cell_27": "4.3",
+	"cell_28": "4.2",
+	"cell_29": "4.4"
+}
+
+###전압 save - cell_30~39 (ten_num: 3)
+POST http://localhost:4000/cars/cellVoltage
+Content-Type: application/json; charset=UTF-8
+
+{	
+	"device_number": "888777",
+    "ten_num": "3",
+    "cell_30": "4.1",
+	"cell_31": "4.3",
+	"cell_32": "4.2",
+	"cell_33": "4.4",
+	"cell_34": "4.3",
+	"cell_35": "4.5",
+	"cell_36": "4.4",
+	"cell_37": "4.6",
+	"cell_38": "4.5",
+	"cell_39": "4.7"
+}
+
+###전압 save - cell_40~49 (ten_num: 4)
+POST http://localhost:4000/cars/cellVoltage
+Content-Type: application/json; charset=UTF-8
+
+{	
+	"device_number": "888777",
+    "ten_num": "4",
+    "cell_40": "4.4",
+	"cell_41": "4.6",
+	"cell_42": "4.5",
+	"cell_43": "4.7",
+	"cell_44": "4.6",
+	"cell_45": "4.8",
+	"cell_46": "4.7",
+	"cell_47": "4.9",
+	"cell_48": "4.8",
+	"cell_49": "5.0"
+}
+
+###전압 save - cell_50~59 (ten_num: 5)
+POST http://localhost:4000/cars/cellVoltage
+Content-Type: application/json; charset=UTF-8
+
+{	
+	"device_number": "888777",
+    "ten_num": "5",
+    "cell_50": "4.7",
+	"cell_51": "4.9",
+	"cell_52": "4.8",
+	"cell_53": "5.0",
+	"cell_54": "4.9",
+	"cell_55": "5.1",
+	"cell_56": "5.0",
+	"cell_57": "5.2",
+	"cell_58": "5.1",
+	"cell_59": "5.3"
+}
+
+###전압 save - cell_60~69 (ten_num: 6)
+POST http://13.125.75.159:4000/cars/cellVoltage
+Content-Type: application/json; charset=UTF-8
+
+{	
+	"device_number": "888777",
+    "ten_num": "6",
+    "cell_60": "5.0",
+	"cell_61": "5.2",
+	"cell_62": "5.1",
+	"cell_63": "5.3",
+	"cell_64": "5.2",
+	"cell_65": "5.4",
+	"cell_66": "5.3",
+	"cell_67": "5.5",
+	"cell_68": "5.4",
+	"cell_69": "5.6"
+}
+
+###전압 save - cell_70~79 (ten_num: 7)
+POST http://13.125.75.159:4000/cars/cellVoltage
+Content-Type: application/json; charset=UTF-8
+
+{	
+	"device_number": "888777",
+    "ten_num": "7",
+    "cell_70": "5.3",
+	"cell_71": "5.5",
+	"cell_72": "5.4",
+	"cell_73": "5.6",
+	"cell_74": "5.5",
+	"cell_75": "5.7",
+	"cell_76": "5.6",
+	"cell_77": "5.8",
+	"cell_78": "5.7",
+	"cell_79": "5.9"
+}
+
+###전압 save - cell_80~89 (ten_num: 8)
+POST http://13.125.75.159:4000/cars/cellVoltage
+Content-Type: application/json; charset=UTF-8
+
+{	
+	"device_number": "888777",
+    "ten_num": "8",
+    "cell_80": "5.6",
+	"cell_81": "5.8",
+	"cell_82": "5.7",
+	"cell_83": "5.9",
+	"cell_84": "5.8",
+	"cell_85": "6.0",
+	"cell_86": "5.9",
+	"cell_87": "6.1",
+	"cell_88": "6.0",
+	"cell_89": "6.2"
+}
+
+###전압 save - cell_90~97 (ten_num: 9)
+POST http://13.125.75.159:4000/cars/cellVoltage
+Content-Type: application/json; charset=UTF-8
+
+{	
+	"device_number": "888777",
+    "ten_num": "9",
+    "cell_90": "5.9",
+	"cell_91": "6.1",
+	"cell_92": "6.0",
+	"cell_93": "6.2",
+	"cell_94": "6.1",
+	"cell_95": "6.3",
+	"cell_96": "6.2",
+	"cell_97": "6.4"
+}
+
+
+###전압 조회 - cell_00~09 (ten_num: 0)
+POST http://13.125.75.159:4000/cars/cellVoltage/app
+Content-Type: application/json; charset=UTF-8
+
+{	
+	"device_number": "888777",
+    "ten_num": "0"
+}
+
+###전압 조회 - cell_10~19 (ten_num: 1)
+POST http://13.125.75.159:4000/cars/cellVoltage/app
+Content-Type: application/json; charset=UTF-8
+
+{	
+	"device_number": "888777",
+    "ten_num": "1"
+}
+
+###전압 조회 - cell_20~29 (ten_num: 2)
+POST http://13.125.75.159:4000/cars/cellVoltage/app
+Content-Type: application/json; charset=UTF-8
+
+{	
+	"device_number": "888777",
+    "ten_num": "2"
+}
+
+###전압 조회 - cell_30~39 (ten_num: 3)
+POST http://13.125.75.159:4000/cars/cellVoltage/app
+Content-Type: application/json; charset=UTF-8
+
+{	
+	"device_number": "888777",
+    "ten_num": "3"
+}
+
+###전압 조회 - cell_40~49 (ten_num: 4)
+POST http://13.125.75.159:4000/cars/cellVoltage/app
+Content-Type: application/json; charset=UTF-8
+
+{	
+	"device_number": "888777",
+    "ten_num": "4"
+}
+
+###전압 조회 - cell_50~59 (ten_num: 5)
+POST http://13.125.75.159:4000/cars/cellVoltage/app
+Content-Type: application/json; charset=UTF-8
+
+{	
+	"device_number": "888777",
+    "ten_num": "5"
+}
+
+###전압 조회 - cell_60~69 (ten_num: 6)
+POST http://13.125.75.159:4000/cars/cellVoltage/app
+Content-Type: application/json; charset=UTF-8
+
+{	
+	"device_number": "888777",
+    "ten_num": "6"
+}
+
+###전압 조회 - cell_70~79 (ten_num: 7)
+POST http://13.125.75.159:4000/cars/cellVoltage/app
+Content-Type: application/json; charset=UTF-8
+
+{	
+	"device_number": "888777",
+    "ten_num": "7"
+}
+
+###전압 조회 - cell_80~89 (ten_num: 8)
+POST http://13.125.75.159:4000/cars/cellVoltage/app
+Content-Type: application/json; charset=UTF-8
+
+{	
+	"device_number": "888777",
+    "ten_num": "8"
+}
+
+###전압 조회 - cell_90~97 (ten_num: 9)
+POST http://13.125.75.159:4000/cars/cellVoltage/app
+Content-Type: application/json; charset=UTF-8
+
+{	
+	"device_number": "888777",
+    "ten_num": "3"
+}
+
+###전압 list toss
+POST http://13.125.75.159:4000/cars/cellVoltage/list/app
+Content-Type: application/json; charset=UTF-8
+
+{
+  "device_number": "888777",
+  "cell_number": "60",
+  "page": 1
+}
