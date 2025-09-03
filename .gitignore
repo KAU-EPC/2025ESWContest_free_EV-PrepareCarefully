@@ -1,0 +1,5 @@
+node_modules
+Sever/test
+Sever/config
+Sever/.env
+.env
